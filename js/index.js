@@ -59,7 +59,6 @@ document.querySelectorAll('.container ').forEach(function (heading) {
     heading.addEventListener("copy",
         function (e) {
             alert("I know my headings are FUN!");
-            e.stopPropagation();
         }
     )
 });
